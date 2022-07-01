@@ -5,12 +5,13 @@ video = "";
 
 function preload(){
     sound = loadSound("alarm.mp3");
-    video = createCapture();
 }
 
 function setup(){
     canvas = createCanvas(480,380);
     canvas.center();
+    
+    video = createCapture();
     video.hide();
 }
 
